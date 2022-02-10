@@ -126,13 +126,13 @@ class ControllerAccountGuest extends Controller {
 		$this->load->model('account/guest');
 		
 		if (isset($this->request->post['email'])) {
-			$data["email"] = $this->request->post['email'];
+			$data["email"] = $this->db->escape($this->request->post['email']);
 		} else {
 			$email = '';
 		}
 
 		if (isset($this->request->post['order_id'])) {
-			$data["order_id"] = $this->request->post['order_id'];
+			$data["order_id"] = (int)$this->request->post['order_id'];
 		} else {
 			$order_id = '';
 		}
