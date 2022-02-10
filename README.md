@@ -1,6 +1,6 @@
-# Fast Order Status Checking module for Opencart 3.x
+# Guest Order Status Checking module for Opencart 3.x
 
-Provide to the customers of your OpenCart store track their order status without login.
+This module provides to the customers of your OpenCart store track their order status without login.
 
 1. Download **OrderStatusCheck.ocmod.zip** and Install it through OpenCart installer
 2. **Or** just upload files from the Upload folder on your server.
