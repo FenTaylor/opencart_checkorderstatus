@@ -6,8 +6,4 @@ This module provides the customers of your OpenCart store track their order stat
 2. **Or** just upload files from the Upload folder on your server.
 3. Put the following link to any place of your website (the footer or header are most common places usually): https://yorwebsite.com/index.php?route=account/guest
 
-To protect personal information, customer needs to verify email he used to place an order: 
-
-### Demo:
-
-https://stichprofi.com/index.php?route=account/guest
+To protect the personal information, customer needs to verify email he used to place an order.
